@@ -6,9 +6,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #829D93;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+img{
+  max-width: 100%
+}
+
+.thumbnail{
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  background-color: #ADC2B5 ;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 15px auto;
+}
+
+.thumbnail>img{
+  width: 100%;
+  height: 300px;
+}
+
+.price-div{
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.basket{
+ display: flex;
+ justify-content: space-between;
+}
+
+.basket-btn{
+  float: right;
 }
