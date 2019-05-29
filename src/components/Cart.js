@@ -20,7 +20,7 @@ const Cart = ({fruits, decrementCount, incrementCount, deleteItem, bill}) => {
                                 +
                             </button>
                             <button
-                            onClick={() => deleteItem(fruit)}
+                            onClick={() => deleteItem(index)}
                             disabled={fruit.count === fruit.quantityRemaining}>
                                 🚮
                             </button>
